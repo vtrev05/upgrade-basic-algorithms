@@ -28,16 +28,16 @@ console.log(avengers[0])
 
 //1.2
 
-avengers[0] = 'IRONMAN';
+avengers.unshift('IRONMAN')
 console.log(avengers)
-
 //1.3
 console.log(avengers.length)
 
 //1.4
 const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
 let newCharacters = rickAndMortyCharacters.push('Morty', 'Summer')
-console.log(rickAndMortyCharacters)
+let lastCharacter = rickAndMortyCharacters.length
+console.log(lastCharacter)
 
 //1.5
 const rickAndMortyCharacters2 = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
