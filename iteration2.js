@@ -25,7 +25,8 @@ const car1 = {name: 'BMW m&m', basePrice: 50000, finalPrice: 60000};
 const car2 = {name: 'Chevrolet Corbina', basePrice: 70000, finalPrice: 80000}; */
 
 //1.1
-const character = {name: 'Jack Sparrow', age: 25};
+const character = {name: 'Jack Sparrow', age: 10};
+character.age = 25;
 
 //1.2
 
