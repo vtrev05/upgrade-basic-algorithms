@@ -46,7 +46,8 @@ console.log(`La suma de los precios es ${toy1.price + toy2.price} euros`)
 
 //1.4
 
-let globalBasePrice = 25000;
+let globalBasePrice = 10000;
+globalBasePrice = 25000;
 const car1 = {name: 'BMW m&m', basePrice: 50000, finalPrice: 60000};
 const car2 = {name: 'Chevrolet Corbina', basePrice: 70000, finalPrice: 80000};
 
