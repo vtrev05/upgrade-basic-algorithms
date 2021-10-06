@@ -28,8 +28,9 @@ for (let i = 0; i < 10; i++) {
 
 //1.3
 for (let i = 0; i < 10; i++) {
-    console.log('Me estoy intentando dormir')
-    if (i > 8) {
-        console.log('Me dormí')
-    }
+    
+    if (i !== 9) {
+        console.log('Me estoy intentando dormir')
+    } else{
+        console.log('Me dormí')}
 }
